@@ -12,6 +12,8 @@ You can find Caffe-based face detector prototxt files in the ```face_detector```
 How to use
 ```    
 git clone https://github.com/morning120429/face-detection.git
+```
+```
 cd face-detection
 ```
 To detect face from photos:
@@ -34,7 +36,7 @@ sudo apt-get install python-opencv
 ## Results
 
 #### Face detection from group photo-
-![Result](https://github.com/morning120429/face-detection/tree/master/images/result1.png)
+![Result](https://github.com/morning120429/face-detection/blob/master/images/result1.png)
 
 #### Face detection from live video-
-![Result](https://github.com/morning120429/face-detection/tree/master/images/result2.png)
+![Result](https://github.com/morning120429/face-detection/blob/master/images/result2.png)

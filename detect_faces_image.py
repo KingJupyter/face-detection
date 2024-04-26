@@ -6,7 +6,7 @@ from PIL import Image
 
 def load_model(image_path):
     # load serialized model from disk
-    net = cv2.dnn.readNetFromCaffe('deploy.prototxt.txt','res10_300x300_ssd_iter_140000.caffemodel')
+    net = cv2.dnn.readNetFromCaffe('deploy.prototxt.txt', 'res10_300x300_ssd_iter_140000.caffemodel')
     
     image = cv2.imread(image_path)
     (h, w) = image.shape[:2]
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     #load_model(image_path)
     try:
         load_model(image_path = sys.argv[1])
-    except:             #    except IndexError:
+    except:
         fmt = 'usage: {} image_path'
         print(fmt.format(__file__.split('/')[-1]))
         print('[ERROR]: Image not found')
