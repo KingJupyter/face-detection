@@ -40,3 +40,7 @@ sudo apt-get install python-opencv
 
 #### Face detection from live video-
 ![Result](https://github.com/morning120429/face-detection/blob/master/images/result2.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
