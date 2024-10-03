@@ -11,7 +11,7 @@ You can find Caffe-based face detector prototxt files in the ```face_detector```
 
 How to use
 ```    
-git clone https://github.com/morning120429/face-detection.git
+git clone https://github.com/KingJupyter/face-detection.git
 ```
 ```
 cd face-detection
