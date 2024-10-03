@@ -36,10 +36,10 @@ sudo apt-get install python-opencv
 ## Results
 
 #### Face detection from group photo-
-![Result](https://github.com/morning120429/face-detection/blob/master/images/result1.png)
+![Result](https://github.com/KingJupyter/face-detection/blob/master/images/result1.png)
 
 #### Face detection from live video-
-![Result](https://github.com/morning120429/face-detection/blob/master/images/result2.png)
+![Result](https://github.com/KingJupyter/face-detection/blob/master/images/result2.png)
 
 ## License
 
